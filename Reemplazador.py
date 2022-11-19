@@ -1,0 +1,11 @@
+# .replace = reemplaza el string ("x", "y")
+
+texto = input(">")
+texto = texto.replace(":)", "🙂")
+texto = texto.replace(":(", "☹️")
+texto = texto.replace(":s", "🥴")
+texto = texto.replace(":S", "🥴")
+texto = texto.replace(":p", "😛")
+texto = texto.replace(":P", "😛")
+texto = texto.replace("(:", "🙃")
+print(texto)
